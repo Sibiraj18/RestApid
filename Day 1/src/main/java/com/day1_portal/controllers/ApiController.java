@@ -15,12 +15,12 @@ public class ApiController {
 	
 	@GetMapping("/day1Name")
 	public ResponseEntity<String>getName(){
-		return ResponseEntity.status(200).body("Welcome Santhipkumar");
+		return ResponseEntity.status(200).body("Welcome Sibiraj");
 	}
 	
 	@GetMapping("/day1Color")
 	public ResponseEntity<String>getMyFav(){
-		return ResponseEntity.status(200).body("My favorite color is Blue");
+		return ResponseEntity.status(200).body("My favorite color is Green");
 	}
 
 }
